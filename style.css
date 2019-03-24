@@ -55,7 +55,7 @@ body{
         position:absolute;
         width:1200px;
         margin-left: 0px;
-        margin-top:0px;
+        margin-top:20px;
 }
 
 .hero h1 {
@@ -63,7 +63,7 @@ body{
         color:white;
         font-size: 50px;
         text-align:center;
-        margin-top:275px;
+        margin-top:225px;
 }
 
 .button{
