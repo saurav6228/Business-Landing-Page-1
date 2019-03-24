@@ -1,0 +1,94 @@
+*{
+        margin:0;
+        padding:0;
+}
+
+header{
+        background-image: url(image.jpg);
+        height:100vh;
+        background-position:center;
+        background-size:cover;
+}
+
+.main-nav{
+        float: right;
+        list-style: none;
+        margin-top:10px;
+}
+
+.main-nav li{
+        display:inline-block;
+}
+
+.main-nav li a{
+        color:white;
+        text-decoration:none;
+        font-family:"roboto" , sans-serif;
+        font-size:18px;
+        padding: 2px 20px;
+}
+
+.main-nav li.active a{
+        border: 1px solid white;
+}
+
+.main-nav li a:hover{
+        border: 1px solid white;
+}
+
+.logo img{
+        width:150px;
+        height:auto;
+        float: left;
+}
+
+.row{
+        max-width:1200px;
+        margin:auto;
+}
+
+body{
+        font-family:monospace;
+}
+
+.hero{
+        position:absolute;
+        width:1200px;
+        margin-left: 0px;
+        margin-top:0px;
+}
+
+.hero h1 {
+        text-transform:uppercase;
+        color:white;
+        font-size: 50px;
+        text-align:center;
+        margin-top:275px;
+}
+
+.button{
+        margin-top:30px;
+        margin-left:440px;
+}
+
+.btn {
+        border: 1px solid white;
+        color:white;
+        padding : 10px 30px;
+        font-size:13px;
+        text-transform: uppercase;
+        margin-right:10px;
+        text-decoration:none;
+}
+
+.btn-first{
+        background-color:darkorange;
+}
+
+.btn-first:hover{
+        background-color:darkgoldenrod;
+}
+
+.btn-second:hover{
+        background-color:darkorange;
+}
